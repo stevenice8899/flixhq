@@ -12,124 +12,74 @@ https://rapidapi.com/stevenice8899/api/flixhq
 
 e.g.:
 `{
-    "still_path": null,
-    "preview_path": "https://preview.boopigcdn.com/_m_previe/18/18f2e10c1579f4adfa913fd135946b51/thumbnails|631",
-    "file_size": {
-        "360": 618003479,
-        "720": 1370681337,
-        "1080": 1666365239
+  "stream": {
+    "360": [
+      {
+        "url": "https://i.pollllop.com/_v11/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211ed5aad175348bef6c8ca66a5f4304be4ad549ec8093debd4d8d3227e19abc6a05de94eb32b7adb158e3dd9e0f46f77ca2ece3bb4ffdb342e053370e71e946b8768be6a1cc00f0da9e8ca473972c197dd721f9c33e2d73f8557007b1ed0b1da3c/360/index.m3u8",
+        "quality": "360",
+        "type": "hls"
+      },
+      {
+        "url": "https://b-g-eu-2.feetcdn.com:2223/v3-hls-playback/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211afea970ce88cbf1f8ed23ab7ce9e2d82d8fbfd9bdd5197ae661a5c788b00c4b7b1e13aa4c619692aea5ec1d4acf4badaa2d5f6d1ae884cc85353bb8fe8454ae4e4e23d227307f39090d079abb190f6da955afbda09ef7b6354d6e8a32ecd9ce7505c6502bdd53f4d59298528c263aa56f96ac41a70e7016cdf26711a4219f4f0/360/index.m3u8",
+        "quality": "360",
+        "type": "hls"
+      }
+    ],
+    "720": [
+      {
+        "url": "https://i.pollllop.com/_v11/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211ed5aad175348bef6c8ca66a5f4304be4ad549ec8093debd4d8d3227e19abc6a05de94eb32b7adb158e3dd9e0f46f77ca2ece3bb4ffdb342e053370e71e946b8768be6a1cc00f0da9e8ca473972c197dd721f9c33e2d73f8557007b1ed0b1da3c/720/index.m3u8",
+        "quality": "720",
+        "type": "hls"
+      },
+      {
+        "url": "https://b-g-eu-2.feetcdn.com:2223/v3-hls-playback/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211afea970ce88cbf1f8ed23ab7ce9e2d82d8fbfd9bdd5197ae661a5c788b00c4b7b1e13aa4c619692aea5ec1d4acf4badaa2d5f6d1ae884cc85353bb8fe8454ae4e4e23d227307f39090d079abb190f6da955afbda09ef7b6354d6e8a32ecd9ce7505c6502bdd53f4d59298528c263aa56f96ac41a70e7016cdf26711a4219f4f0/720/index.m3u8",
+        "quality": "720",
+        "type": "hls"
+      }
+    ],
+    "1080": [
+      {
+        "url": "https://i.pollllop.com/_v11/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211ed5aad175348bef6c8ca66a5f4304be4ad549ec8093debd4d8d3227e19abc6a05de94eb32b7adb158e3dd9e0f46f77ca2ece3bb4ffdb342e053370e71e946b8768be6a1cc00f0da9e8ca473972c197dd721f9c33e2d73f8557007b1ed0b1da3c/1080/index.m3u8",
+        "quality": "1080",
+        "type": "hls"
+      },
+      {
+        "url": "https://b-g-eu-2.feetcdn.com:2223/v3-hls-playback/eef6391dc6ddb8b119b58901b236666b375ce83e5fdea5d9efc58eae2fc0144cfbf8ca94e7128f5b345883dadcb0f211afea970ce88cbf1f8ed23ab7ce9e2d82d8fbfd9bdd5197ae661a5c788b00c4b7b1e13aa4c619692aea5ec1d4acf4badaa2d5f6d1ae884cc85353bb8fe8454ae4e4e23d227307f39090d079abb190f6da955afbda09ef7b6354d6e8a32ecd9ce7505c6502bdd53f4d59298528c263aa56f96ac41a70e7016cdf26711a4219f4f0/1080/index.m3u8",
+        "quality": "1080",
+        "type": "hls"
+      }
+    ]
+  },
+  "subtitles": [
+    {
+      "link": "https://cc.boopigcdn.com/_ms/7f/f8/7ff8f1cb08981dcd02f7683d173c12c9/7ff8f1cb08981dcd02f7683d173c12c9.vtt",
+      "id": 575292,
+      "episode_id": 1131764,
+      "file_name": null,
+      "lang": "Italian 1",
+      "lang_code": "ita",
+      "is_sync": 1,
+      "is_deleted": 0
     },
-    "id": 1408693,
-    "movie_id": 104821,
-    "season_id": 0,
-    "name": "Movie",
-    "episode_number": 1,
-    "overview": null,
-    "air_date": null,
-    "status_release": 1,
-    "mark": null,
-    "file_version": 2,
-    "is_include_sub": 1,
-    "is_sub_extracted": 1,
-    "sub_type": 1,
-    "preview_status": 1,
-    "original_quality": 1080,
-    "audio_status": 19,
-    "is_fullhd": 0,
-    "subs": [
-        {
-            "link": "https://cc.boopigcdn.com/_ms/e2/c0/e2c0cc7e9660e446afcf913a7a636af5/eng-2.vtt",
-            "id": 4469026,
-            "episode_id": 1408693,
-            "file_name": null,
-            "lang": "English - English [SDH]",
-            "lang_code": "eng",
-            "is_sync": 1,
-            "is_deleted": 0
-        },
-        {
-            "link": "https://cc.boopigcdn.com/_ms/e2/c0/e2c0cc7e9660e446afcf913a7a636af5/fre-3.vtt",
-            "id": 4469029,
-            "episode_id": 1408693,
-            "file_name": null,
-            "lang": "French - French Canadian [SDH]",
-            "lang_code": "fre",
-            "is_sync": 1,
-            "is_deleted": 0
-        }
-    ],
-    "links": [
-        {
-            "id": 10221388,
-            "movie_episode_id": 1408693,
-            "server": 18,
-            "status": 1,
-            "service_status": 17,
-            "lock": 1,
-            "broken": 0,
-            "storage_path": "e2/c0/1kjz8p_Xp1iyRq6fFiogfdhcezBql-3pc_encoded|1080|720|360",
-            "is_fullhd": 1
-        },
-        {
-            "id": 10221649,
-            "movie_episode_id": 1408693,
-            "server": 29,
-            "status": 1,
-            "service_status": 0,
-            "lock": 1,
-            "broken": 0,
-            "storage_path": "e2/c0/1kjz8p_Xp1iyRq6fFiogfdhcezBql-3pc_encoded|1080|720|360",
-            "is_fullhd": 0
-        }
-    ],
-    "streaming": {
-        "360": [
-            {
-                "url": "https://n.pollllop.com/_v11/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf44a9a2fede70ebe67f096148fb4ef0e3c8f2258eef563fac468bb38185040d6e7552414dc4db0256cba41a2722793a3ccde399f02d768afcb68aeefa322fd491ed4a275155cd1887585e519e47c226b35ada258927aa5d80011c126f84007dd28/360/index.m3u8",
-                "quality": "360",
-                "type": "hls"
-            },
-            {
-                "url": "https://b-g-eu-16.feetcdn.com:2223/v3-hls-playback/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf4ce28df06bc955f584840395683489f8464bba0c4bbddcd45e0af114770d1a285cd786efa7d31cf2caa02efc9f0c6d609b4161732d7ef58c3a5ed9556eb3759ca1ae22cfb2d7b505404528793bb004882fe7892ec91bc995fe46f2f53c1c9e2994fce6116b54113cb7d669042dff40b543bafbc29b006fce82dda2f009716bfee/360/index.m3u8",
-                "quality": "360",
-                "type": "hls"
-            }
-        ],
-        "720": [
-            {
-                "url": "https://n.pollllop.com/_v11/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf44a9a2fede70ebe67f096148fb4ef0e3c8f2258eef563fac468bb38185040d6e7552414dc4db0256cba41a2722793a3ccde399f02d768afcb68aeefa322fd491ed4a275155cd1887585e519e47c226b35ada258927aa5d80011c126f84007dd28/720/index.m3u8",
-                "quality": "720",
-                "type": "hls"
-            },
-            {
-                "url": "https://b-g-eu-16.feetcdn.com:2223/v3-hls-playback/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf4ce28df06bc955f584840395683489f8464bba0c4bbddcd45e0af114770d1a285cd786efa7d31cf2caa02efc9f0c6d609b4161732d7ef58c3a5ed9556eb3759ca1ae22cfb2d7b505404528793bb004882fe7892ec91bc995fe46f2f53c1c9e2994fce6116b54113cb7d669042dff40b543bafbc29b006fce82dda2f009716bfee/720/index.m3u8",
-                "quality": "720",
-                "type": "hls"
-            }
-        ],
-        "1080": [
-            {
-                "url": "https://n.pollllop.com/_v11/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf44a9a2fede70ebe67f096148fb4ef0e3c8f2258eef563fac468bb38185040d6e7552414dc4db0256cba41a2722793a3ccde399f02d768afcb68aeefa322fd491ed4a275155cd1887585e519e47c226b35ada258927aa5d80011c126f84007dd28/1080/index.m3u8",
-                "quality": "1080",
-                "type": "hls"
-            },
-            {
-                "url": "https://b-g-eu-16.feetcdn.com:2223/v3-hls-playback/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf4ce28df06bc955f584840395683489f8464bba0c4bbddcd45e0af114770d1a285cd786efa7d31cf2caa02efc9f0c6d609b4161732d7ef58c3a5ed9556eb3759ca1ae22cfb2d7b505404528793bb004882fe7892ec91bc995fe46f2f53c1c9e2994fce6116b54113cb7d669042dff40b543bafbc29b006fce82dda2f009716bfee/1080/index.m3u8",
-                "quality": "1080",
-                "type": "hls"
-            }
-        ],
-        "auto": [
-            {
-                "url": "https://n.pollllop.com/_v11/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf44a9a2fede70ebe67f096148fb4ef0e3c8f2258eef563fac468bb38185040d6e7552414dc4db0256cba41a2722793a3ccde399f02d768afcb68aeefa322fd491ed4a275155cd1887585e519e47c226b35ada258927aa5d80011c126f84007dd28/playlist.m3u8",
-                "quality": "auto",
-                "type": "hls"
-            },
-            {
-                "url": "https://b-g-eu-16.feetcdn.com:2223/v3-hls-playback/9d63e6f64090b701b78d116d38498e864bdfe09b00585059eff26ab891ed0567102b9859eecfb771a82dbedd8de3dbf4ce28df06bc955f584840395683489f8464bba0c4bbddcd45e0af114770d1a285cd786efa7d31cf2caa02efc9f0c6d609b4161732d7ef58c3a5ed9556eb3759ca1ae22cfb2d7b505404528793bb004882fe7892ec91bc995fe46f2f53c1c9e2994fce6116b54113cb7d669042dff40b543bafbc29b006fce82dda2f009716bfee/playlist.m3u8",
-                "quality": "auto",
-                "type": "hls"
-            }
-        ]
+    {
+      "link": "https://cc.boopigcdn.com/_ms/6f/06/6f06053eeffb9722f2ae9eca01005297/6f06053eeffb9722f2ae9eca01005297.vtt",
+      "id": 897604,
+      "episode_id": 1131764,
+      "file_name": null,
+      "lang": "Spanish 1",
+      "lang_code": "spa",
+      "is_sync": 1,
+      "is_deleted": 0
+    },
+    {
+      "link": "https://cc.boopigcdn.com/_ms/24/2f/242ff9997df20e444d377cf3a042c8dc/eng-2.vtt",
+      "id": 1025346,
+      "episode_id": 1131764,
+      "file_name": null,
+      "lang": "English - SDH",
+      "lang_code": "eng",
+      "is_sync": 1,
+      "is_deleted": 0
     }
+  ]
 }`
